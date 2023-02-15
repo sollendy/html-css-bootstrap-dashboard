@@ -1,0 +1,10 @@
+.up-nav .up-logo .mid-logo {
+    max-width: 50px;
+}
+
+aside .aside-cont {
+    /* max-width: 20%; */
+    background-color: rgb(5, 30, 52);
+    /* background-image: url(/img/sidebar-bg.png); */
+    color: white;
+}
