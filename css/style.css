@@ -2,7 +2,12 @@
     max-width: 50px;
 }
 
+aside {
+    height: calc(100% - 54px);
+}
+
 aside .aside-cont {
+    height: 100%;
     /* max-width: 20%; */
     background-color: rgb(5, 30, 52);
     /* background-image: url(/img/sidebar-bg.png); */
