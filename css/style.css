@@ -4,7 +4,7 @@
 
 .central-cont {
     height: calc(100vh - 70px);
-    width: 100%
+    /* width: 100% */
 }
 
 aside {
@@ -19,8 +19,23 @@ aside {
     color: white;
 }
 
+.central-cont .corpo-cent header {
+    background-color: rgb(27, 114, 232);
+    color: white;
+}
+
+.central-cont .corpo-cent header div a {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 992px) {
 aside .aside-cont {
     min-width: 150px;
+    }
+
+    .central-cont .corpo-cent {
+        width: calc(100% - 150px);
+        padding: 0;
     }
 }
