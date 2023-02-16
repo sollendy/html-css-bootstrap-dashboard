@@ -23,6 +23,15 @@ aside {
     color: white;
 }
 
+.central-cont aside .aside-cont .aside-hover {
+    transition: .5s;
+}
+
+.central-cont aside .aside-cont .aside-hover:hover {
+    background-color: white;
+    color: black;
+}
+
 .central-cont .corpo-cent header {
     background-color: rgb(27, 114, 232);
     color: white;
@@ -31,6 +40,15 @@ aside {
 .central-cont .corpo-cent header div a {
     color: white;
     text-decoration: none;
+}
+
+.central-cont .corpo-cent header div div .main-hover {
+
+}
+
+.central-cont .corpo-cent header div div div .main-hover:hover {
+    background-color: white;
+    color: black;
 }
 
 section .carte ul li .avatar-img {
@@ -50,5 +68,12 @@ section .carte ul li .avatar-img {
     .central-cont .corpo-cent {
         width: calc(100% - 150px);
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .corpo-cent header div .head-elems {
+        display: flex;
+        flex-flow: column-reverse;
     }
 }

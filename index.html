@@ -34,20 +34,20 @@
         <aside>
             <div class="aside-cont py-3 d-flex flex-column justify-content-between align-items-center">
                 <div class="3-icons d-flex flex-column gap-2">
-                    <div>
+                    <div class="aside-hover">
                         <i class="pe-2 fa-solid fa-house"></i>
                         <span class="d-none d-lg-inline">home</span>
                     </div>
-                    <div>
+                    <div class="aside-hover">
                         <i class="pe-2 fa-solid fa-chart-simple"></i>
                         <span class="d-none d-lg-inline">Stats</span>
                     </div>
-                    <div>
+                    <div class="aside-hover">
                         <i class="pe-2 fa-solid fa-signal"></i>
                         <span class="d-none d-lg-inline">Signals</span>
                     </div>
                 </div>
-                <div class="aside-bottom">
+                <div class="aside-hover aside-bottom">
                     <i class="pe-2 fa-solid fa-gear"></i>
                     <span class="d-none d-lg-inline">admin</span>
                 </div>
@@ -56,7 +56,7 @@
         <div class="container-fluid p-0 corpo-cent overflow-y-auto">
             <header class="container-fluid p-0 m-0 py-3">
                 <div class="container-fluid p-0 m-0 head-cont">
-                    <div class="container row">
+                    <div class="head-elems container row">
                         <div class="col col-12 col-md-4">
                             <span class="fs-2">Boolean</span>
                             <span class="badge rounded-pill text-bg-secondary">Piano blaze</span>
@@ -73,7 +73,7 @@
                         <div class="col col-12 col-md-4 d-flex gap-3">
                             <span>Nuovo Studente</span>
                             <div>
-                                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <a class="main-hover btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                                     <i class="fa-regular fa-plus border rounded-1 p-1"></i>
                                 </a>
                                   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -294,8 +294,63 @@
                               </div>
                             </div>
                     </section>
-                    <section class="2-sec">
-                        
+                    <section class="pt-4 px-2 2-sec">
+                        <div class="check-cnt">
+                            <div class="card carte">
+                                <div class="card-header">
+                                  <span class="fs-3">Todo</span>
+                                </div>
+                                <div class="p-3 in-check">
+                                    <ul class="list-group list-group-flush">
+                                        <div class="all-li border rounded-2">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                <div class="py-1 form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      kickoff nuove classi
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                <div class="py-1 form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      lezione su bootstrap 5 classe 75
+                                                    </label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                <div class="py-1 form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                      controllare username github studenti
+                                                    </label>
+                                                </div>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>       
+                        </div>
+                        <div class="last-cnt pt-4">
+                            <div>
+                                <div class="border rounded-2 py-3 px-3">
+                                    <div class="card w-auto border" style="width: 18rem;">
+                                        <img src="img/stats.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">utenti attivi</h5>
+                                          <p class="card-text">lista degli utenti attivi in piattaforma questo mese</p>
+                                          <ul class="border list-group list-group-flush">
+                                            <li class="list-group-item">gennaio 1800</li>
+                                            <li class="list-group-item">febbraio 800</li>
+                                            <li class="list-group-item">marzo 1200</li>
+                                            <li class="list-group-item"> <a href="#" class="card-link">visualizza report approfondito</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                 </div>
             </main>
