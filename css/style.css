@@ -47,7 +47,7 @@ aside {
 }
 
 .central-cont .corpo-cent header div div .main-hover {
-
+    transition: 0.5s;
 }
 
 .central-cont .corpo-cent header div div div .main-hover:hover {
@@ -59,7 +59,11 @@ section .carte ul li .avatar-img {
     width: 35px;
 }
 
-@media screen and (min-width: 992px) {
+#offcanvasright {
+    width: 100%;
+}
+
+@media screen and (min-width: 991px) {
     aside {
         height: 100%;
         width: 150px;
@@ -73,6 +77,19 @@ section .carte ul li .avatar-img {
         width: calc(100% - 150px);
         padding: 0;
     }
+
+    .central-cont .corpo-cent main div .sec-1 {
+        width: 175%;
+        height: 100%;
+    }
+
+    /* .central-cont .corpo-cent main div .sec-2 .last-cnt {
+        height: ;
+    } */
+
+    /* .central-cont .corpo-cent main div .sec-1 .faq-sec .faq-cnt .accordion {
+        height: 300px;
+    } */
 }
 
 @media screen and (max-width: 450px) {
