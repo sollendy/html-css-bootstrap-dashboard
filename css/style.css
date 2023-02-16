@@ -83,6 +83,10 @@ section .carte ul li .avatar-img {
         height: 100%;
     }
 
+    #offcanvasExample {
+        width: 50%;
+    }
+
     /* .central-cont .corpo-cent main div .sec-2 .last-cnt {
         height: ;
     } */
