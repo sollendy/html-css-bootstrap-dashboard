@@ -19,6 +19,7 @@ aside {
 .central-cont aside .aside-cont {
     height: 100%;
     width: 70px;
+    background-image: url('../img/sidebar-bg.png');
     background-color: rgb(5, 30, 52);
     color: white;
 }
